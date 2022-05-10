@@ -78,28 +78,18 @@ The source file (src), alternative text (alt), width, and height are provided as
 <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142" />
 ```
 
-### HTML Links
-
-HTML links are defined with the `<a>` tag
-
-```html
-<a href="https://www.w3schools.com">This is a W3C Schools link</a>
-<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
-```
-
-## Points remember
+### Points remember
 
 - What is an element
 - HTML is Not Case Sensitive
 - Never Skip the End Tag
 - Empty HTML Elements
 - How to view HTML source
-- How to inspect HTML elements
+- How to inspect HTML elements ### Other Tags
 
-### Other Tags
+```text
 
-```
-Tag     Description
+Tag Description
 
 <hr>    Horizontal line tag
 <br>    Line break tag
@@ -128,15 +118,36 @@ Tag         Description
  <mark>     Defines marked/highlighted text
 ```
 
-### Links
+### HTML Links
 
-- Links with text
+HTML links are defined with the `<a>` tag
+
+External Links:
+
+```html
+<a href="https://www.w3schools.com">This is a W3C Schools link</a>
+<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
+```
+
+Internal Links:
+
+```html
+<a href="#chapter-1"> chapter-1</a> <a href="#chapter-2">chapter-2</a>
+```
+
+Dead Links:
+
+```html
+<a href="#"> placeholder-1</a> <a href="#">placeholder-2</a>
+```
+
+Links with text:
 
 ```html
 <a href="page2.html">goto page2</a>
 ```
 
-- Links with image
+Links with image:
 
 ```html
 <a href="default.asp">
@@ -144,7 +155,7 @@ Tag         Description
 </a>
 ```
 
-- Link with Button
+Link with Button:
 
 ```html
 <button onclick="document.location='page2.html'">goto page 2</button>
@@ -332,7 +343,6 @@ The `<form>` element is a container for different types of input elements, such 
 
 - `<div>`
 - `<span>`
-  etc.
 
 ### Multimedia
 
